@@ -41,7 +41,7 @@ Knowledge-Distillation-For-Images-Classification/
 
 ### 1. Création de l'environnement virtuel
 ```bash
-git clone [https://github.com/](https://github.com/)<Fallou-Diouf>/Knowledge-Distillation-For-Images-Classification.git
+git clone https://github.com/Fallou-Diouf/Knowledge-Distillation-For-Images-Classification.git
 cd Knowledge-Distillation-For-Images-Classification
 
 python3 -m venv .venv
