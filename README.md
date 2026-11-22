@@ -7,9 +7,12 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Metrics-F7931E.svg?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c.svg)](https://matplotlib.org/)
 
+
 Implémentation modulaire en **PyTorch** et étude expérimentale de la **Knowledge Distillation (KD)** appliquée à la classification d'images sur le jeu de données **CIFAR-10** ($32 \times 32$).
 
+
 Ce projet évalue le transfert de connaissances d'un réseau *Teacher* volumineux vers un réseau *Student* compact selon deux stratégies (**Scores uniquement** vs **Scores + Feature Maps**), trois métriques de distance (**MSE**, **KL Divergence**, **Cosine Similarity**) et plusieurs niveaux de compression architecturale. Il est réalisé dans le cadre du **Master 2 MVI de l'Université Paris Cité**.
+
 ---
 
 ## Architecture du Projet
@@ -38,7 +41,7 @@ Knowledge-Distillation-For-Images-Classification/
 
 ### 1. Création de l'environnement virtuel
 ```bash
-git clone [https://github.com/](https://github.com/)<TON_USERNAME>/Knowledge-Distillation-For-Images-Classification.git
+git clone [https://github.com/](https://github.com/)<Fallou-Diouf>/Knowledge-Distillation-For-Images-Classification.git
 cd Knowledge-Distillation-For-Images-Classification
 
 python3 -m venv .venv
