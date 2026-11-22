@@ -1,0 +1,162 @@
+[
+    {
+        "Experience": "Exp1: Teacher ResNet50 (Pretrained)",
+        "Total_Params": 23520842,
+        "Trainable_Params": 23520842,
+        "Size_MB": 89.93,
+        "Train_Time_s": 7641.5,
+        "Best_Val_Acc": 97.32,
+        "Test_Loss": 0.1227,
+        "Test_Acc": 97.06
+    },
+    {
+        "Experience": "Exp2: Student ResNet18 (Pretrained)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 2411.1,
+        "Best_Val_Acc": 95.98,
+        "Test_Loss": 0.1731,
+        "Test_Acc": 95.45
+    },
+    {
+        "Experience": "Exp3: KD Scores (Pretrained, MSE)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 4887.1,
+        "Best_Val_Acc": 95.42,
+        "Test_Loss": 0.1766,
+        "Test_Acc": 94.87
+    },
+    {
+        "Experience": "Exp4: KD Scores+Feat (Pretrained, MSE)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 4347.8,
+        "Best_Val_Acc": 95.84,
+        "Test_Loss": 0.1635,
+        "Test_Acc": 95.29
+    },
+    {
+        "Experience": "Exp5: Student ResNet18 (Scratch)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 2325.0,
+        "Best_Val_Acc": 91.92,
+        "Test_Loss": 0.2651,
+        "Test_Acc": 91.57
+    },
+    {
+        "Experience": "Exp6: KD Scores (Scratch, MSE)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 4253.6,
+        "Best_Val_Acc": 91.92,
+        "Test_Loss": 0.2778,
+        "Test_Acc": 91.29
+    },
+    {
+        "Experience": "Exp7: KD Scores+Feat (Scratch, MSE)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 4280.4,
+        "Best_Val_Acc": 92.36,
+        "Test_Loss": 0.2713,
+        "Test_Acc": 91.9
+    },
+    {
+        "Experience": "Exp9: KD Scores+Feat (KL)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 4171.1,
+        "Best_Val_Acc": 92.82,
+        "Test_Loss": 0.3916,
+        "Test_Acc": 92.23
+    },
+    {
+        "Experience": "Exp9: KD Scores+Feat (COSINE)",
+        "Total_Params": 11173962,
+        "Trainable_Params": 11173962,
+        "Size_MB": 42.66,
+        "Train_Time_s": 3888.6,
+        "Best_Val_Acc": 92.56,
+        "Test_Loss": 0.2803,
+        "Test_Acc": 92.0
+    },
+    {
+        "Experience": "Exp10: Custom Teacher (/1)",
+        "Total_Params": 1148874,
+        "Trainable_Params": 1148874,
+        "Size_MB": 4.39,
+        "Train_Time_s": 952.0,
+        "Best_Val_Acc": 90.38,
+        "Test_Loss": 0.3163,
+        "Test_Acc": 89.6
+    },
+    {
+        "Experience": "Exp10: Custom Student /2 (Baseline)",
+        "Total_Params": 288746,
+        "Trainable_Params": 288746,
+        "Size_MB": 1.1,
+        "Train_Time_s": 651.0,
+        "Best_Val_Acc": 88.0,
+        "Test_Loss": 0.3716,
+        "Test_Acc": 87.69
+    },
+    {
+        "Experience": "Exp10: Custom Student /2 (KD)",
+        "Total_Params": 288746,
+        "Trainable_Params": 288746,
+        "Size_MB": 1.1,
+        "Train_Time_s": 767.4,
+        "Best_Val_Acc": 88.98,
+        "Test_Loss": 0.3616,
+        "Test_Acc": 88.41
+    },
+    {
+        "Experience": "Exp10: Custom Student /3 (Baseline)",
+        "Total_Params": 126957,
+        "Trainable_Params": 126957,
+        "Size_MB": 0.49,
+        "Train_Time_s": 628.4,
+        "Best_Val_Acc": 86.2,
+        "Test_Loss": 0.4321,
+        "Test_Acc": 85.45
+    },
+    {
+        "Experience": "Exp10: Custom Student /3 (KD)",
+        "Total_Params": 126957,
+        "Trainable_Params": 126957,
+        "Size_MB": 0.49,
+        "Train_Time_s": 735.5,
+        "Best_Val_Acc": 87.38,
+        "Test_Loss": 0.4224,
+        "Test_Acc": 86.44
+    },
+    {
+        "Experience": "Exp10: Custom Student /4 (Baseline)",
+        "Total_Params": 72954,
+        "Trainable_Params": 72954,
+        "Size_MB": 0.28,
+        "Train_Time_s": 584.3,
+        "Best_Val_Acc": 84.98,
+        "Test_Loss": 0.4814,
+        "Test_Acc": 83.87
+    },
+    {
+        "Experience": "Exp10: Custom Student /4 (KD)",
+        "Total_Params": 72954,
+        "Trainable_Params": 72954,
+        "Size_MB": 0.28,
+        "Train_Time_s": 685.8,
+        "Best_Val_Acc": 85.54,
+        "Test_Loss": 0.4849,
+        "Test_Acc": 85.01
+    }
+]

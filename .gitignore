@@ -1,0 +1,17 @@
+# Environnements virtuels et caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Données CIFAR-10 téléchargées et checkpoints volumineux
+data/
+checkpoints/
+*.pth
+*.pt
+
+# Système macOS / Éditeurs
+.DS_Store
+.vscode/
+.idea/
